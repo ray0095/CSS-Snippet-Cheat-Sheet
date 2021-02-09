@@ -23,14 +23,16 @@ h1, h2 {
 
 
 main {
-    width: 100%;
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    justify-content: center;
 }
 
 section {
-    width: 27%;
+    flex: 1 0 100%;
     border-style: dashed;
     border-width: 2px;
     padding: 10px;
@@ -62,13 +64,13 @@ footer {
 
 @media screen and (max-width: 768px){
     section{
-       width: 90%; 
+       width: 50%; 
     }
 }
 
 @media screen and (max-width: 420px){
     section{
-       width: 100%; 
+       width: 33%; 
     }
 }
 
