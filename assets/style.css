@@ -23,15 +23,14 @@ h1, h2 {
 
 
 main {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 3%;
     width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 section {
-    width: 33.3%;
+    width: 27%;
     border-style: dashed;
     border-width: 2px;
     padding: 10px;
@@ -63,7 +62,7 @@ footer {
 
 @media screen and (max-width: 768px){
     section{
-       width: 50%; 
+       width: 90%; 
     }
 }
 
